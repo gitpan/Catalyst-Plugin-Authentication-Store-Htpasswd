@@ -5,6 +5,7 @@ WriteMakefile
           'NAME' => 'Catalyst::Plugin::Authentication::Store::Htpasswd',
           'VERSION_FROM' => 'lib/Catalyst/Plugin/Authentication/Store/Htpasswd.pm',
           'PREREQ_PM' => {
+                           'Authen::Htpasswd' => '0.13',
                            'Catalyst::Plugin::Authentication' => '0.01'
                          },
           'INSTALLDIRS' => 'site',

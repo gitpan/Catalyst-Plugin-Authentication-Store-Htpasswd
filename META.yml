@@ -1,6 +1,6 @@
 ---
 name: Catalyst-Plugin-Authentication-Store-Htpasswd
-version: 0.01
+version: 0.011
 author:
   - David Kamholz <dkamholz@cpan.org>
 abstract: |-
@@ -8,11 +8,12 @@ abstract: |-
   database in C<<$c->config>>.
 license: perl
 requires:
+  Authen::Htpasswd: 0.13
   Catalyst::Plugin::Authentication: 0.01
 provides:
   Catalyst::Plugin::Authentication::Store::Htpasswd:
     file: lib/Catalyst/Plugin/Authentication/Store/Htpasswd.pm
-    version: 0.01
+    version: 0.011
   Catalyst::Plugin::Authentication::Store::Htpasswd::Backend:
     file: lib/Catalyst/Plugin/Authentication/Store/Htpasswd/Backend.pm
   Catalyst::Plugin::Authentication::Store::Htpasswd::User:
