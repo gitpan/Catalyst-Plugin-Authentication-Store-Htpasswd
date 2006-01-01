@@ -5,7 +5,7 @@ package Catalyst::Plugin::Authentication::Store::Htpasswd;
 use strict;
 use warnings;
 
-our $VERSION = '0.011';
+our $VERSION = '0.02';
 
 use Catalyst::Plugin::Authentication::Store::Htpasswd::Backend;
 
@@ -30,7 +30,7 @@ __END__
 =head1 NAME
 
 Catalyst::Plugin::Authentication::Store::Htpasswd - Authentication
-database in C<<$c->config>>.
+database in C<< $c->config >>.
 
 =head1 SYNOPSIS
 
@@ -76,7 +76,7 @@ David Kamholz C<dkamholz@cpan.org>
 
 L<Authen::Htpasswd>.
 
-=head1 COPYRIGHT & LICNESE
+=head1 COPYRIGHT & LICENSE
 
 	Copyright (c) 2005 the aforementioned authors. All rights
 	reserved. This program is free software; you can redistribute

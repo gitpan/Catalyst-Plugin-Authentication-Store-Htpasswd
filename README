@@ -1,6 +1,6 @@
 NAME
     Catalyst::Plugin::Authentication::Store::Htpasswd - Authentication
-    database in "<$c-"config>>.
+    database in "$c->config".
 
 SYNOPSIS
         use Catalyst qw/
@@ -38,7 +38,7 @@ AUTHORS
 SEE ALSO
     Authen::Htpasswd.
 
-COPYRIGHT & LICNESE
+COPYRIGHT & LICENSE
             Copyright (c) 2005 the aforementioned authors. All rights
             reserved. This program is free software; you can redistribute
             it and/or modify it under the same terms as Perl itself.
