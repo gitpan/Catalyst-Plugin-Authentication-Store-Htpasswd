@@ -2,7 +2,7 @@
 name: Catalyst-Plugin-Authentication-Store-Htpasswd
 version: 0.02
 author:
-  - David Kamholz <dkamholz@cpan.org>
+  - 'David Kamholz <dkamholz@cpan.org>'
 abstract: |-
   Authentication
   database in C<< $c->config >>.
